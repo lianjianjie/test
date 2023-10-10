@@ -1,0 +1,6 @@
+{
+    "include": [
+      "weex_assets/**/*"
+    ],
+    "component2": true
+}

@@ -1,0 +1,13 @@
+<!-- 容器内多个盒子 -->
+<container>
+  <image  src="{{src}}" onError="imageError" style="width:100%;height:160px" onLoad="imageLoad" />
+</container>
+<container style="margin-top:-25px">
+  <grid items="{{itemsCustom}}" onTap="handleTapItem" columns="{{3}}" iconSize="{{44}}"/>
+</container>
+<container>
+  <skeleton animate />
+</container>
+<container>
+  <skeleton animate />
+</container>

@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "page/index/index",
+    "page/addEvent/addEvent"
+  ],
+  "launchParams": {
+    "src/core/list/demo/index": {
+      "renderMode": "weex"
+    }
+  },
+  "window": {
+    "defaultTitle": "",
+    "supportColorScheme": [
+      "light",
+      "dark"
+    ],
+    "pullRefresh": false,
+    "allowsBounceVertical": "YES"
+  }
+}
